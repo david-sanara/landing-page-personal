@@ -95,6 +95,10 @@ header .navbar li a:hover {
 
 }
 
+a:visited{
+    color: inherit;
+}
+
 /*--------Contenido de la web INDEX---------*/
 
 .contenido {
