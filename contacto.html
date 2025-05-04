@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Librería iconos web https://ionic.io/  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page Web</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo">David Sánchez Aragón</a>
+            <ul class="navbar">
+                <li>
+                    <a href="sobremi.html">Quién soy</a>
+                </li>
+                <li>
+                    <a href="cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos destacados</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div class="tituloBox">
+            <form action="mailto:darcangel@gmail.com" method="post">
+                <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+                    <div class="formulario">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="formulario">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+                    </div>
+                    <div class="formul-doble">
+                        <div class="formulario">
+                            <label for="correo">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="telefono" id="telefono" placeholder="(+Prefijo) Teléfono">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" name="direccion" id="direccion" placeholder="Calle, Nº, Piso">
+                    </div>
+                    <div class="formul-doble">
+                        <div class="formulario">
+                            <label for="ciudad">Ciudad</label>
+                            <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+                        </div>
+                        <div class="formulario">
+                            <label for="codigo_postal">Código Postal</label>
+                            <input type="number" name="codigo_postal" id="codigo_postal" placeholder="Código Postal">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>MOTIVO DE CONTACTO.</legend>
+                    <div class="formulario">
+                        <label for="motivo"></label>
+                        <select name="motivo">
+                            <option value="1">Seleccionar uno</option>
+                            <option value="2">Posible trabajo</option>
+                            <option value="3">Colaboración</option>
+                            <option value="4">Saludar</option>
+                            <option value="5">Otros</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>SI MARCASTE OTROS. DEJA AQUÍ TU MOTIVO DE CONTACTO.</legend>
+                    <label for="mensaje"></label>
+                    <div class="formulario">
+                        <label>500 caracteres max.</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..."
+                            maxlength="500"></textarea>
+                    </div>
+                </fieldset>
+        <div class="botones">
+            <button type="submit" class="boton" title="Enviar">ENVIAR</button>
+            <button type="reset" class="boton" title="Borrar">RESET</button>
+        </div>
+        </form>
+        </div>
+        <div class="copyright">
+            <p>&copy;Web Personal creada para la materia de Lenguaje de Marcas del CFGS DAM</p>
+        </div>
+        <ul class="redesSociales">
+            <li>
+                <a href="mailto:davidsanchezaragon@hotmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+            </li>
+            <li>
+                <a href="https://es.linkedin.com/in/david-s%C3%A1nchez-arag%C3%B3n-8b16b442" target="_blank"><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li>
+                <a href="https://github.com/david-sanara" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
