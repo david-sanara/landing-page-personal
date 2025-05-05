@@ -95,7 +95,7 @@ header .navbar li a:hover {
 
 }
 
-a:visited{
+a:visited {
     color: inherit;
 }
 
@@ -250,6 +250,59 @@ p {
     border: 6px solid #6a00ff;
     box-shadow: 0 0 20px #6a00ff, 0 0 1px #6a00ff60;
     font-size: 1.1rem;
+}
+
+.casette {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-image: url(../img/cinta.png);
+    width: 200px;
+    height: 300px;
+}
+
+.freddy {
+    position: absolute;
+    bottom: 50px;
+    left: 365px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-image: url(../img/freddy.png);
+    width: 200px;
+    height: 300px;
+}
+
+
+.pc {
+    position: absolute;
+    top: 30px;
+    right: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-image: url(../img/pc.png);
+    width: 200px;
+    height: 300px;
+}
+
+.snes {
+    position: absolute;
+    bottom: 20px;
+    right: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-image: url(../img/snes.png);
+    width: 200px;
+    height: 300px;
 }
 
 /*------------PROYECTOS-------------------*/
