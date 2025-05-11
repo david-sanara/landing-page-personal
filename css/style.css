@@ -242,10 +242,11 @@ p {
 } */
 
 .textosobremi {
+    position: relative;
     width: 47rem;
     top: 5rem;
     border-radius: 9px;
-    background-color: rgb(25, 23, 23);
+    background-color: rgb(25, 23, 23, 0.8);
     padding: 0.5rem;
     border: 6px solid #6a00ff;
     box-shadow: 0 0 20px #6a00ff, 0 0 1px #6a00ff60;
@@ -254,8 +255,8 @@ p {
 
 .casette {
     position: absolute;
-    top: 50px;
-    left: 350px;
+    top: 8vh;
+    left: 10vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,8 +268,8 @@ p {
 
 .freddy {
     position: absolute;
-    bottom: 50px;
-    left: 365px;
+    bottom: 8vh;
+    left: 10vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,8 +282,8 @@ p {
 
 .pc {
     position: absolute;
-    top: 30px;
-    right: 360px;
+    top: 8vh;
+    right: 10vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -294,8 +295,8 @@ p {
 
 .snes {
     position: absolute;
-    bottom: 20px;
-    right: 360px;
+    bottom: 8vh;
+    right: 10vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -304,6 +305,20 @@ p {
     width: 200px;
     height: 300px;
 }
+
+.comics {
+    position: absolute;
+    top: 4vh;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-image: url(../img/marvel-comics-corner-box-seeklogo.png);
+    width: 200px;
+    height: 300px;
+}
+
 
 /*------------PROYECTOS-------------------*/
 
@@ -323,10 +338,10 @@ p {
     padding: 5rem 5rem 5rem 5rem;
     margin: auto;
     color: black;
-}
+    }
 
 caption {
-    background-color: rgba(205, 213, 255, 0.5);
+    background-color: rgba(205, 213, 255, 0.7);
     border-radius: 5px;
     font-size: 2rem;
 }
@@ -336,14 +351,18 @@ caption {
     max-width: 900px;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.9);
+
 }
 
-.tablaproyectos th,
-.tablaproyectos td {
+.tablaproyectos th {
     padding: 1rem 1rem;
     text-align: center;
-    border: 1px solid #4c4848;
+    background-color: white;
+}
+.tablaproyectos td {
+    color: rgb(230, 176, 176);
+    padding: 1rem 1rem;
+    text-align: center;
 }
 
 .enlace:hover {
@@ -354,15 +373,15 @@ caption {
 
 .titulotabla {
     color: black;
-    background-color: burlywood;
+    background-color: rgb(228, 190, 140, 0.3);
 }
 
 .asignatura {
-    background-color: rgb(234, 208, 175);
+    background-color: rgb(234, 208, 175, 0.3);
 }
 
 .enlace {
-    background-color: cyan;
+    background-color: rgb(5, 253, 253, 0.3);
 }
 
 /*-------------------- CV ----------------*/
