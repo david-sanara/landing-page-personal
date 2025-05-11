@@ -228,18 +228,13 @@ a:visited {
 
 /*------------ SOBRE MI------------- */
 
+/* He usado posicion "relative" en "sobre mi" para que tenga una posición fija en la
+página y "absolute" en las imágenes para que se coloquen en un lugar específico 
+de la página. No estoy seguro si lo he hecho bien, ya que voy un poco por ensayo error"*/
+
 p {
     margin-top: 1rem;
 }
-
-/* .sobremi {
-    color: rgb(0, 0, 0);
-    background-image: url(../img/Backgroundweb_DAM2.jpg);
-    background-repeat: no-repeat;
-    background-size: 205%;
-    background-position: left bottom;
-    background-attachment: fixed; 
-} */
 
 .textosobremi {
     position: relative;
